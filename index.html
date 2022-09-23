@@ -5,70 +5,568 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Coming Soon - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <title>Reid Mosieur</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png" /> 
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body>
-        <!-- Background Video-->
-        <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="assets/mp4/bg.mp4" type="video/mp4" /></video>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Reid Mosieur</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Recent Work</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#services">Services</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#pricing">Pricing</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded btn btn-sm btn-outline-light" href="https://us14.list-manage.com/contact-form?u=2c305ea5e1334ebc02d8b5d02&form_id=f5f4f07fc035b89cae6eadd68b75f0d8">Ready to start?</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <!-- Masthead-->
-        <div class="masthead">
-            <div class="masthead-content text-white">
-                <div class="container-fluid px-4 px-lg-0">
-                    <h1 class="fst-italic lh-1 mb-4">Our Website is Coming Soon</h1>
-                    <p class="mb-5">We're working hard to finish the development of this site. Sign up below to receive updates and to be notified when we launch!</p>
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- * * SB Forms Contact Form * *-->
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- This form is pre-integrated with SB Forms.-->
-                    <!-- To make this form functional, sign up at-->
-                    <!-- https://startbootstrap.com/solution/contact-forms-->
-                    <!-- to get an API token!-->
-                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                        <!-- Email address input-->
-                        <div class="row input-group-newsletter">
-                            <div class="col"><input class="form-control" id="email" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                            <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-4" src="assets/img/avataaars.svg" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Reid Mosieur</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light" style="margin: 0 0 0 0;">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <div class="masthead-subheading text-center mt-4">
+                    <h2>Modern, Beautiful Websites That Make Sense</h2>
+                </div>
+                <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-light" href="https://us14.list-manage.com/contact-form?u=2c305ea5e1334ebc02d8b5d02&form_id=f5f4f07fc035b89cae6eadd68b75f0d8">
+                        <i class="fas fa-envelope me-2"></i>
+                        Ready to start?
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- About Section-->
+        <section class="page-section text-secondary mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary">About</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-secondary">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ms-auto"><p class="lead">I'm Reid, a web developer obsessed with all things tech and business. I believe that you shouldn't have to sacrifice a good looking website to drive more sales for your company. Because, let's be honest, with some websites it's form or function. I say, why not both?</p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">Tech is constantly changing, and keepng up while running your business can prove to be a challenge. But, this can prove to be a unique advantage if you're able to stay ahead of the competition. Learn what this advantage can mean in your business with a free, no commitment web presence analysis!</p></div>
+                </div>
+                <!-- About Section Button-->
+                <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-secondary" href="https://us14.list-manage.com/contact-form?u=2c305ea5e1334ebc02d8b5d02&form_id=f5f4f07fc035b89cae6eadd68b75f0d8">
+                        <i class="fas fa-envelope me-2"></i>
+                        Get your FREE analysis!
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio bg-primary text-white" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Recent Work</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/reidmosieur.PNG" alt="..." />
                         </div>
-                        <div class="invalid-feedback mt-2" data-sb-feedback="email:required">An email is required.</div>
-                        <div class="invalid-feedback mt-2" data-sb-feedback="email:email">Email is not valid.</div>
-                        <!-- Submit success message-->
-                        <!---->
-                        <!-- This is what your users will see when the form-->
-                        <!-- has successfully submitted-->
-                        <div class="d-none" id="submitSuccessMessage">
-                            <div class="text-center mb-3 mt-2">
-                                <div class="fw-bolder">Form submission successful!</div>
-                                To activate this form, sign up at
-                                <br />
-                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/warehousewireless.PNG" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/wholesalewarehousewireless.PNG" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services Section -->
+        <section class="page-section text-secondary" id="services">
+            <div class="row mt-4">
+                <h2 class="centered-title">Here's What I Can Do</h2>
+            </div>
+                <div class="divider-custom divider-secondary">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="service-row mt-4">
+                    <div class="service-column">
+                        <div class="card">
+                            <div class="icon-wrapper">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3 class="service-h3">Design and Maintain Your Site</h3>
+                            <p class="service-p">
+                                Content that makes sense and is easy on the eyes. Have a consistent experience for the eyes you send to your site.
+                            </p>
+                        </div>
+                    </div>
+                <div class="service-column">
+                    <div class="card">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3 class="service-h3">Host Your Site</h3>
+                        <p class="service-p">
+                            No more worrying about DNS records, servers going down, or troubleshooting why nothing you're doing works.
+                        </p>
+                    </div>
+                </div>
+                <div class="service-column">
+                    <div class="card">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-mobile-screen"></i>
+                        </div>
+                        <h3 class="service-h3">Bring Your Site to The Modern Era</h3>
+                        <p class="service-p">
+                            The internet has been around for almost forty years. Your website shouldn't look like it! It's time to upgrade.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing Section -->
+        <section class="page-section bg-primary text-secondary" id="pricing">
+            <div class="container">
+                <h2 class="centered-title text-white text-center">Select Your Plan</h2>
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="price-row mt-4">
+                    <div class="price-col bg-white text-secondary">
+                        <p>Startup</p>
+                        <h3>$49<br/>/month</h3>
+                        <a class="btn btn btn-outline-secondary" href="https://us14.list-manage.com/contact-form?u=2c305ea5e1334ebc02d8b5d02&form_id=f5f4f07fc035b89cae6eadd68b75f0d8">
+                            <i class="fas fa-envelope me-2"></i>
+                            Let's Get Started!
+                        </a>
+                        <ul class="text-secondary text-start pt-2">
+                            <li>One page</li>
+                            <li>High converting</li>
+                            <li>Mobile optimized</li>
+                            <li>Secure hosting included</li>
+                            <li>Maintenance include</li>
+                            <li>One hour / month allowance for changes</li>
+                        </ul>
+                    </div>
+                    <div class="price-col bg-white text-secondary">
+                        <p>Authority</p>
+                        <h3>$99<br/>/month</h3>
+                        <a class="btn btn btn-outline-secondary" href="https://us14.list-manage.com/contact-form?u=2c305ea5e1334ebc02d8b5d02&form_id=f5f4f07fc035b89cae6eadd68b75f0d8">
+                            <i class="fas fa-envelope me-2"></i>
+                            Let's Get Started!
+                        </a>
+                        <ul class="text-secondary text-start pt-2">
+                            <li>5 pages</li>
+                            <li>High converting</li>
+                            <li>Mobile optimized</li>
+                            <li>Secure hosting included</li>
+                            <li>Maintenance include</li>
+                            <li>One hour / month allowance for changes</li>
+                        </ul>
+                    </div>
+                    <div class="price-col bg-white text-secondary">
+                        <p>Custom</p>
+                        <h3>???<br/>/month</h3>
+                        <a class="btn btn btn-outline-secondary" href="https://us14.list-manage.com/contact-form?u=2c305ea5e1334ebc02d8b5d02&form_id=f5f4f07fc035b89cae6eadd68b75f0d8">
+                            <i class="fas fa-envelope me-2"></i>
+                            Want to see what I can do?
+                        </a>
+                        <ul class="text-secondary text-start pt-2">
+                            <li>??? Pages</li>
+                            <li>High converting</li>
+                            <li>Mobile optimized</li>
+                            <li>Secure hosting included</li>
+                            <li>Analytics tools</li>
+                            <li>Access and change on page content</li>
+                            <li>??? / month allowance for changes</li>
+                            <li>Need something else? Just ask</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Want to think about it?</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-secondary">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="d-flex justify-content-center contact-container">
+                    <!-- Begin Mailchimp Signup Form -->
+                    <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
+                    <style type="text/css">
+                        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:100%;}
+                        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                    </style>
+                    <div id="mc_embed_signup">
+                        <form action="https://reidmosieur.us14.list-manage.com/subscribe/post?u=2c305ea5e1334ebc02d8b5d02&amp;id=d41a677e67&amp;f_id=0092f2e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                            <h2>While you wait, get to know me better and I'll send you some helpful tips along the way!</h2>
+                            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                    <div class="mc-field-group">
+                        <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                    </label>
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+                        <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                    </div>
+                    <div class="mc-field-group">
+                        <label for="mce-FNAME">First Name  <span class="asterisk">*</span>
+                    </label>
+                        <input type="text" value="" name="FNAME" class="required" id="mce-FNAME" required>
+                        <span id="mce-FNAME-HELPERTEXT" class="helper_text"></span>
+                    </div>
+                    <div class="mc-field-group">
+                        <label for="mce-LNAME">Last Name  <span class="asterisk">*</span>
+                    </label>
+                        <input type="text" value="" name="LNAME" class="required" id="mce-LNAME" required>
+                        <span id="mce-LNAME-HELPERTEXT" class="helper_text"></span>
+                    </div>
+                    <div class="mc-field-group size1of2">
+                        <label for="mce-PHONE">Phone Number  <span class="asterisk">*</span>
+                    </label>
+                        <input type="text" name="PHONE" class="required" value="" id="mce-PHONE" required>
+                        <span id="mce-PHONE-HELPERTEXT" class="helper_text"></span>
+                    </div>
+                    <div class="mc-field-group size1of2">
+                        <label for="mce-BIRTHDAY-month">Birthday </label>
+                        <div class="datefield">
+                            <span class="subfield monthfield">
+                                <input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month">
+                            </span> / 
+                            <span class="subfield dayfield">
+                                <input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day">
+                            </span> 
+                            <span class="small-meta nowrap">( mm / dd )</span>
+                        </div>
+                        <span id="mce-BIRTHDAY-HELPERTEXT" class="helper_text"></span>
+                    </div>	<div id="mce-responses" class="clear foot">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2c305ea5e1334ebc02d8b5d02_d41a677e67" tabindex="-1" value=""></div>
+                            <div class="optionalParent">
+                                <div class="clear foot">
+                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                                    <p class="brandingLogo"><a href="http://eepurl.com/h_DmDv" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
+                                </div>
+                                <p class="text-muted fst-italic">(PS: I promise I won't spam you)</p>
                             </div>
                         </div>
-                        <!-- Submit error message-->
-                        <!---->
-                        <!-- This is what your users will see when there is-->
-                        <!-- an error submitting the form-->
-                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
                     </form>
+                    </div>
+                    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                    <!--End mc_embed_signup-->
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            Ocala, Fl
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <!-- <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a> -->
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/ReidMosieur"><i class="fab fa-fw fa-twitter"></i></a>
+                        <!-- <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a> -->
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">Reid Mosieur</h4>
+                        <p class="lead mb-0">
+                            Modern, Beautiful Websites That Make Sense
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright pt-2 pb-2 text-center text-white">
+                <div class="container"><small>Copyright &copy; Reid Mosieur 2022</small></div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <!-- Sticky Banner -->
+        <div class="banner-container fixed-bottom p-2 banner visually-hidden" id="stickyFooter">
+            <div class="row d-flex align-items-center text-center text-secondary">
+                <div class=" col-8 text-sm-end">Want a free checklist for your site?</div>
+                <div class="text-center d-flex col-4 h1 pt-2">
+                    <a class="btn btn-sm btn-outline-secondary align-self-start" data-bs-toggle="modal" data-bs-target="#ebookSignup">
+                        <i class="fas fa-download me-2"></i>
+                        Of course!
+                    </a>
                 </div>
             </div>
         </div>
-        <!-- Social Icons-->
-        <!-- For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands-->
-        <div class="social-icons">
-            <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-instagram"></i></a>
+        <!-- Contact me modal -->
+        <div class="modal fade" id="contactMe">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-title">Don't be shy! Feel free to reach out, no commitment.</div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Contact Section Form-->
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-xl-7" style="width: 90%;">
+                                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+                                    <fieldset id="fs-frm-inputs">
+                                    <label for="full-name">Full Name</label>
+                                    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                                    <label for="email-address">Email Address</label>
+                                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                                    <label for="message">Message</label>
+                                    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+                                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                                    </fieldset>
+                                    <input type="submit" value="Submit">
+                                </form>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+        <!-- eBook Sign Up Modal -->
+        <div class="modal fade" id="ebookSignup">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6">
+                                <!-- Begin Mailchimp Signup Form -->
+                                <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
+                                <style type="text/css">
+                                    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:100%;}
+                                    /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                                    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                                </style>
+                                <div id="mc_embed_signup">
+                                    <form action="https://reidmosieur.us14.list-manage.com/subscribe/post?u=2c305ea5e1334ebc02d8b5d02&amp;id=d41a677e67&amp;f_id=0092f2e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                        <div id="mc_embed_signup_scroll">
+                                        <h2>Looking to launch your site yourself? Awesome! Web development is a lot of fun! 
+                                            If you'd like some must haves you might not know about for your site, just add your email 
+                                            and you can get my checklist for free! <br/> (PS: If you've already got a site,
+                                             it might be a good time to check on these details.)</h2>
+                                        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                                <div class="mc-field-group">
+                                    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                                </label>
+                                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+                                    <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                                </div>
+                                <div class="mc-field-group">
+                                    <label for="mce-FNAME">First Name  <span class="asterisk">*</span>
+                                </label>
+                                    <input type="text" value="" name="FNAME" class="required" id="mce-FNAME" required>
+                                    <span id="mce-FNAME-HELPERTEXT" class="helper_text"></span>
+                                </div>
+                                <div class="mc-field-group">
+                                    <label for="mce-LNAME">Last Name  <span class="asterisk">*</span>
+                                </label>
+                                    <input type="text" value="" name="LNAME" class="required" id="mce-LNAME" required>
+                                    <span id="mce-LNAME-HELPERTEXT" class="helper_text"></span>
+                                </div>
+                                <div class="mc-field-group size1of2">
+                                    <label for="mce-PHONE">Phone Number </label>
+                                    <input type="text" name="PHONE" class="" value="" id="mce-PHONE">
+                                    <span id="mce-PHONE-HELPERTEXT" class="helper_text"></span>
+                                </div>
+                                    <div id="mce-responses" class="clear foot">
+                                        <div class="response" id="mce-error-response" style="display:none"></div>
+                                        <div class="response" id="mce-success-response" style="display:none"></div>
+                                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_2c305ea5e1334ebc02d8b5d02_d41a677e67" tabindex="-1" value=""></div>
+                                        <div class="optionalParent">
+                                            <div class="clear foot">
+                                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                                            </div>
+                                            <p class="text-muted fst-italic">(PS: I promise not to spam you)</p>
+                                            <p class="brandingLogo"><a href="http://eepurl.com/h_DmDv" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
+                                        </div>
+                                    </div>
+                                </form>
+                                </div>
+                                <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                                <!--End mc_embed_signup-->
+                            </div>
+                            <div class="col-xs-12 col-md-6 d-flex justify-content-center pb-4">
+                                <img src="/startbootstrap-freelancer-gh-pages/assets/img/ebook-cover/ebook-cover.svg" alt="" class="ebook-cover">
+                            </div>
+                            <div class="col-12 pb-4 d-flex justify-content-center">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Reid Mosieur</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/reidmosieur.PNG" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Easy on the eyes and engaging. And the website isn't half bad either. Seriously though, why trust a developer who doesn't practice what he preaches?</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Warehouse Wireless</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/warehousewireless.PNG" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">A clean and simple design aimed at getting people in the door and in the right channels.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Warehouse Wireless Wholesale</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/wholesalewarehousewireless.PNG" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">A truly functional marketplace for businesses to buy used devices at great prices.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
